@@ -97,12 +97,10 @@
 		E728F9551C79294800B89355 /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				E728F9561C79294800B89355 /* AppDelegate.swift */,
-				E728F9581C79294800B89355 /* ViewController.swift */,
-				E728F95A1C79294800B89355 /* Main.storyboard */,
-				E728F95D1C79294800B89355 /* Assets.xcassets */,
-				E728F95F1C79294800B89355 /* LaunchScreen.storyboard */,
-				E728F9621C79294800B89355 /* Info.plist */,
+				E728F9871C792FC300B89355 /* Supported Files */,
+				E728F9861C792FA600B89355 /* Controller */,
+				E728F9851C792F9B00B89355 /* View */,
+				E728F9841C792F9000B89355 /* Model */,
 			);
 			path = MusicVideo;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				E728F9781C79294900B89355 /* Info.plist */,
 			);
 			path = MusicVideoUITests;
+			sourceTree = "<group>";
+		};
+		E728F9841C792F9000B89355 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E728F9851C792F9B00B89355 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E728F95A1C79294800B89355 /* Main.storyboard */,
+				E728F95F1C79294800B89355 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E728F9861C792FA600B89355 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E728F9581C79294800B89355 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E728F9871C792FC300B89355 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				E728F9621C79294800B89355 /* Info.plist */,
+				E728F95D1C79294800B89355 /* Assets.xcassets */,
+				E728F9561C79294800B89355 /* AppDelegate.swift */,
+			);
+			name = "Supported Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +219,9 @@
 		E728F94B1C79294800B89355 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Volkan Tay";
