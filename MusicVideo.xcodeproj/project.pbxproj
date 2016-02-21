@@ -14,6 +14,11 @@
 		E728F9611C79294800B89355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E728F95F1C79294800B89355 /* LaunchScreen.storyboard */; };
 		E728F96C1C79294800B89355 /* MusicVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E728F96B1C79294800B89355 /* MusicVideoTests.swift */; };
 		E728F9771C79294900B89355 /* MusicVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E728F9761C79294900B89355 /* MusicVideoUITests.swift */; };
+		E728F9881C7930D200B89355 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E728F9621C79294800B89355 /* Info.plist */; };
+		E728F9891C7930D400B89355 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E728F9621C79294800B89355 /* Info.plist */; };
+		E728F98A1C7930D400B89355 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E728F9621C79294800B89355 /* Info.plist */; };
+		E728F98C1C7A5D8400B89355 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E728F98B1C7A5D8400B89355 /* APIManager.swift */; };
+		E728F98E1C7A5FD400B89355 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = E728F98D1C7A5FD400B89355 /* Constans.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,8 @@
 		E728F9721C79294800B89355 /* MusicVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E728F9761C79294900B89355 /* MusicVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoUITests.swift; sourceTree = "<group>"; };
 		E728F9781C79294900B89355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E728F98B1C7A5D8400B89355 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E728F98D1C7A5FD400B89355 /* Constans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +133,7 @@
 		E728F9841C792F9000B89355 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E728F98B1C7A5D8400B89355 /* APIManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -153,6 +161,7 @@
 				E728F9621C79294800B89355 /* Info.plist */,
 				E728F95D1C79294800B89355 /* Assets.xcassets */,
 				E728F9561C79294800B89355 /* AppDelegate.swift */,
+				E728F98D1C7A5FD400B89355 /* Constans.swift */,
 			);
 			name = "Supported Files";
 			sourceTree = "<group>";
@@ -264,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E728F9881C7930D200B89355 /* Info.plist in Resources */,
 				E728F9611C79294800B89355 /* LaunchScreen.storyboard in Resources */,
 				E728F95E1C79294800B89355 /* Assets.xcassets in Resources */,
 				E728F95C1C79294800B89355 /* Main.storyboard in Resources */,
@@ -274,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E728F9891C7930D400B89355 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E728F98A1C7930D400B89355 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E728F98C1C7A5D8400B89355 /* APIManager.swift in Sources */,
 				E728F9591C79294800B89355 /* ViewController.swift in Sources */,
+				E728F98E1C7A5FD400B89355 /* Constans.swift in Sources */,
 				E728F9571C79294800B89355 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +531,7 @@
 				E728F97D1C79294900B89355 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E728F97E1C79294900B89355 /* Build configuration list for PBXNativeTarget "MusicVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +540,7 @@
 				E728F9801C79294900B89355 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E728F9811C79294900B89355 /* Build configuration list for PBXNativeTarget "MusicVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +549,7 @@
 				E728F9831C79294900B89355 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
